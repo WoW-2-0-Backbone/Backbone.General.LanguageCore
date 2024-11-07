@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Title>WoW2.Backbone.Language.Core.Time.Provider.Basic</Title>
+        <PackageId>WoW2.Backbone.Language.Core.Time.Provider.Basic</PackageId>
+        <Description>Basic implementation of time provider utilities for handling time-related operations</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>time, time-provider, datetime, basic, infrastructure</PackageTags>
+        <Version>8.0.0-alpha.0</Version>
+        <Authors>WoW 2.0 Team</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/WoW-2-0-Backbone/Backbone.Language.Core</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/WoW-2-0-Backbone/Backbone.Language.Core</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>wow2.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="wow2.png" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="WoW2.Backbone.Language.Core.Time.Provider.Abstractions" Version="8.0.0-alpha.1" />
+    </ItemGroup>
+
+</Project>
